@@ -1,23 +1,4 @@
-# {{GROUP_NAME}} {{GROUP_TYPE}} Group
-<!--
- This is the template for creating project groups in rust-lang. Be sure to go
- through all sections marked with `**FIX ME**`, and make sure that the text is
- correct, and feel free to replace/remove any part that's not relevant to
- your group.
-
- All of the text across all of the initial files uses the same group of
- variables to allow for easy search and replace. They are listed below.
-
- Example sed command: `sed -i '' 's/{{GROUP_NAME}}/Inline ASM/g' ./**/*.md`
- *Note* the `-i ''` is important as it is required on some platforms e.g. macOS
-
- * {{GROUP_NAME}} -> The display name of your group e.g. "Inline ASM".
- * {{GROUP_SLUG}} -> The url slug name of your group used for
-   `rust-lang/team` and repo name. e.g. "pg-inline-asm".
- * {{CHAT_PLATFORM}} -> The name of your chat app e.g. "Zulip".
- * {{CHAT_LINK}} -> The hyperlink to your discussions on the chat app
-   e.g. "https://rust-lang.zulipchat.com/#narrow/stream/216763-project-inline-asm".
--->
+# THIR Unsafety Checker Project Group
 
 <!--
  Status badge advertising the project as being actively worked on. When the
@@ -35,13 +16,13 @@
  relevant links to information about your group.
 -->
 
-Welcome to the repository for the {{GROUP_NAME}} Project Group! This is the
+Welcome to the repository for the THIR Unsafety Checker Project Group! This is the
 repository we use to organise our work. Please refer to our [charter] as well
 as our [github pages website][gh-pages] for more information on our goals and
 current scope.
 
 [charter]: ./CHARTER.md
-[gh-pages]: https://rust-lang.github.io/{{GROUP_SLUG}}
+[gh-pages]: https://rust-lang.github.io/project-thir-unsafeck
 
 **/FIX ME**
 
@@ -64,13 +45,13 @@ on `rust-lang/team`.][team-toml]
 If you'd like to participate be sure to check out any of our [open issues] on this
 repository.
 
-We also participate on [{{CHAT_PLATFORM}}][chat-link], feel free to introduce
+We also participate on [Zulip][chat-link], feel free to introduce
 yourself over there and ask us any questions you have.
 
 
 [open issues]: /issues
-[chat-link]: {{CHAT_LINK}}
-[team-toml]: https://github.com/rust-lang/team/blob/master/teams/{{GROUP_TYPE}}-{{GROUP_SLUG}}.toml
+[chat-link]: https://rust-lang.zulipchat.com/#narrow/stream/278509-project-thir-unsafeck
+[team-toml]: https://github.com/rust-lang/team/blob/master/teams/project-thir-unsafeck.toml
 
 **/FIX ME**
 

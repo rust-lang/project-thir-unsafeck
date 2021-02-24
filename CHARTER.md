@@ -1,4 +1,4 @@
-# {{GROUP_NAME}} Charter
+# THIR Unsafety Checker Charter
 <!--
  Provide an introduction summarising the goals and motivation behind your
  project group.
